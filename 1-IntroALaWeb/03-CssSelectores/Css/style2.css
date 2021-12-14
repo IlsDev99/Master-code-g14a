@@ -1,4 +1,5 @@
 body{
+    background-color: rgb(201, 159, 152);
     font-size:18px ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin:0;
@@ -22,4 +23,11 @@ nav a:hover{
 }
 div{
     border: 1px solid #000000;
+}
+ul li{
+    color: rgb(90, 131, 9);
+}
+ul li:nth-child(odd){
+    font-style: italic;
+    color: rgb(145, 31, 11);
 }
