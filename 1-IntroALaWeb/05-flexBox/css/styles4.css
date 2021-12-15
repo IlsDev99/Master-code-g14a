@@ -1,0 +1,36 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+header{
+    align-items: center;
+    background-color: rgb(233, 156, 61);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+h1, nav{
+    display: inline-block;
+}
+h1, nav a{
+    color:darkslategray
+}
+h1{
+    font-size: 1.2rem;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+nav a{
+    font-size: 0.6rem;
+    text-decoration: none; 
+    padding: 10px 10px;
+}
+nav a:hover{
+    background-color: rgb(102, 211, 102);
+}
